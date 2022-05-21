@@ -4,7 +4,7 @@
   --accent-color: #2196f3;
   --main-color: #ffffff;
   --first-background-color: #2f303a;
-  --secondary-background-color: ##f5f4fa;
+  --secondary-background-color: #f5f4fa;
 }
 
 body {
@@ -16,9 +16,6 @@ body {
 .button {
   color: var(--main-color);
   background-color: var(--accent-color);
-}
-
-.section {
 }
 
 /* Site nav */
@@ -61,7 +58,10 @@ body {
   color: var(--secondary-text-color);
 }
 
-/* About_us */
+/* Our-team */
+.team {
+  background-color: var(--secondary-background-color);
+}
 
 /* Основной цвет текста  #212121 */
 /* Вторичный цвет текста #2196F3 */
