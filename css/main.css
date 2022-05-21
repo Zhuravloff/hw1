@@ -1,0 +1,75 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --main-color: #ffffff;
+  --first-background-color: #2f303a;
+  --secondary-background-color: ##f5f4fa;
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: var(--main-background-color);
+}
+
+/* button */
+.button {
+  color: var(--main-color);
+  background-color: var(--accent-color);
+}
+
+.section {
+}
+
+/* Site nav */
+.logo {
+  color: var(--accent-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  list-style: none;
+}
+
+.site-nav {
+  color: var(--primary-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* Main */
+
+.main {
+  background-color: var(--first-background-color);
+}
+.main-title {
+  color: #ffffff;
+}
+
+/* feature */
+.feature-list .title {
+  color: var(--primary-text-color);
+}
+
+.feature-list .text {
+  color: var(--secondary-text-color);
+}
+
+/* About_us */
+
+/* Основной цвет текста  #212121 */
+/* Вторичный цвет текста #2196F3 */
+/* Цыет копны #FFFFFF */
+/* Цвет мейла  #2196F3; */
+/* Цвет телефона #757575*/
+/* Акцент #2196F3 */
+/* Цвет заголовков #212121*/
+/* Цвет абзаца #757575 */
+/* background темній  #2F303A  светлій #FFFFFF*/
+/* background наша команда ##F5F4FA */
